@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/akashmate/krakend-test-env-app.git'
     path: .
-    targetRevision: dev
+    targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: krakend-test-prj
